@@ -1,0 +1,9 @@
+#meme-image {
+    position: absolute;
+    z-index: 0;
+}
+
+.meme-texto {
+    position: absolute;
+    z-index: 1;
+}
