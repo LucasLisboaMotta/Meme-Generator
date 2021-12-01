@@ -3,10 +3,13 @@
     z-index: 0;
 } */
 
-.meme-texto {
+#meme-text {
     position: absolute;
-    z-index: 1;
-    top: 150px
+    top: 100px;
+    left: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 30px;
 }
 
 #meme-image-container {

@@ -10,7 +10,6 @@ function mudaParagrafo() {
 function memeFundo() {
   const imagem = inputImg.files[0];
   quadro.src = URL.createObjectURL(imagem);
-  paragrafo.classList.add('meme-texto');
 }
 
 inputImg.addEventListener('change', memeFundo);
