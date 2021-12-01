@@ -6,6 +6,7 @@ const fogo = document.getElementById('fire');
 const agua = document.getElementById('water');
 const terra = document.getElementById('earth');
 const container = document.getElementById('meme-image-container');
+const exemplo = document.getElementById('container-exemplos');
 
 function mudaParagrafo() {
   paragrafo.innerText = inputMeme.value;
@@ -28,6 +29,11 @@ function mudarTerra() {
   container.className = 'terra';
 }
 
+function fundoBase(evento) {
+  quadro.src = evento.target.src;
+}
+
+exemplo.addEventListener('click', fundoBase);
 fogo.addEventListener('click', mudarFogo);
 agua.addEventListener('click', mudarAgua);
 terra.addEventListener('click', mudarTerra);
