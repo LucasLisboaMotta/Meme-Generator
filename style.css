@@ -1,6 +1,6 @@
 #meme-image {
   width: 400px;
-  height: 300px; 
+  height: 300px;
 }
 
 #meme-text {
@@ -10,8 +10,8 @@
   color: white;
   text-shadow: 5px 5px 5px black;
   font-size: 30px;
- }
-  
+}
+
 #meme-image-container {
   background-color: white;
   width: 400px;
