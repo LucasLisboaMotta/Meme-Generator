@@ -4,22 +4,22 @@
 }
 
 #meme-text {
-    position: absolute;
-    top: 250px;
-    left: 15px;
-    color: white;
-    text-shadow: 5px 5px 5px black;
-    font-size: 30px;
-}
-
+  position: absolute;
+  top: 250px;
+  left: 15px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-size: 30px;
+ }
+  
 #meme-image-container {
+  background-color: white;
   width: 400px;
   height: 300px;
 }
 
 .normal {
   border: black solid 1px;
-  background-color: white;
 }
 
 .fogo {
@@ -27,15 +27,15 @@
 }
 
 #fire {
-    background-color: red;
+  background-color: red;
 }
 
 .agua {
-    border: blue double 5px;
+  border: blue double 5px;
 }
 
 #water {
-    background-color: blue;
+  background-color: blue;
 }
 
 .terra {
@@ -43,20 +43,20 @@
 }
 
 #earth {
-    background-color: green;
+  background-color: green;
 }
 
 #container-exemplos {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
 }
 
 #container-exemplos img {
-    width: 100px;
-    height: 75px;
+  width: 100px;
+  height: 75px;
 }
 
 button {
-    margin: 10px;
+  margin: 10px;
 }
